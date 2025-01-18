@@ -74,7 +74,7 @@ const SignInForm = () => {
         if (!isLoaded) return;
 
         if (!email) {
-            toast.error("Please enter your email address");
+            toast.error("your email");
             return;
         }
 
@@ -191,16 +191,14 @@ const SignInForm = () => {
                 initial="hidden"
             >
                 <div className="flex justify-center">
-                    <Link href="/">
-                        <Icons.icon className="w-8 h-8" />
-                    </Link>
+                  
                 </div>
                 <h1 className="text-2xl text-center mt-4">
                     {isEmailOpen
-                        ? "Login to Luro"
+                        ? "Login"
                         : isCodeSent
                             ? "Verify your email"
-                            : "Welcome to Luro"}
+                            : "Welcome to Worklance_"}
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen

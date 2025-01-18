@@ -187,7 +187,7 @@ const SignUpForm = () => {
                 </h1>
                 <p className="text-sm text-muted-foreground mt-2">
                     {isEmailOpen
-                        ? "Create an account to start using luro"
+                        ? "Create an account to start using worklance"
                         : isCodeSent
                             ? "Please check your inbox for verification code"
                             : "Enter your email address to get started"}

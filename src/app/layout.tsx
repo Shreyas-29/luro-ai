@@ -1,16 +1,16 @@
 import "@/styles/globals.css";
-import { cn, generateMetadata } from "@/functions";
+import { cn } from "@/functions";
 import { inter, satoshi } from "@/constants";
 import { Toaster } from "@/components/ui/sonner";
-import { Providers } from "@/components";
+import { Providers } from "@/components/Providers";
 
-export const metadata = generateMetadata();
+export const metadata = {
+    title: "My Page Title"
+  };
 
 export default function RootLayout({
     children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+}: { children: React.ReactNode }) {
     return (
         <html lang="en" suppressHydrationWarning>
             <body
@@ -20,15 +20,11 @@ export default function RootLayout({
                     satoshi.variable,
                 )}
             >
-                <Toaster
-                    richColors
-                    theme="dark"
-                    position="top-right"
-                />
+                <Toaster richColors theme="dark" position="top-right" />
                 <Providers>
                     {children}
                 </Providers>
             </body>
         </html>
     );
-};
+}

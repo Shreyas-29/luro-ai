@@ -17,7 +17,7 @@ const Features = () => {
                         Create content faster <br /> and smarter
                     </h2>
                     <p className="text-base md:text-lg text-center text-accent-foreground/80 mt-6">
-                        Transform your social media strategy with Luro AI&apos;s cutting-edge features, designed to optimize your content creation and engagement like never before.
+                        Transform your social media strategy with worklance_&apos;s cutting-edge features, designed to optimize your content creation and engagement like never before.
                     </p>
                 </div>
             </Container>
@@ -73,7 +73,7 @@ const Features = () => {
                                     <div className="bento-card w-full relative items-center justify-center">
                                         <div className="w-full absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                                             <p className="text-base text-muted-foreground text-justify [mask-image:radial-gradient(50%_50%_at_50%_50%,#BAB3FF_0%,rgba(186,179,255,0)_90.69%)]">
-                                                We use AI to help you create content that resonates with your audience. Our tools are designed to optimize your content creation and engagement like never before. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Reach your audience with the right message at the right time. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI. Transform your social media strategy with Luro AI&apos;s cutting-edge features. Create content faster and smarter with Luro AI.
+                                                We use AI to help you create content that resonates with your audience. Our tools are designed to optimize your content creation and engagement like never before. Transform your social media strategy with worklance_&apos;s cutting-edge features. Reach your audience with the right message at the right time. Create content faster and smarter with worklance_. Transform your social media strategy with worklance_&apos;s cutting-edge features. Create content faster and smarter with worklance_. Transform your social media strategy with worklance_&apos;s cutting-edge features. Create content faster and smarter with worklance_.
                                             </p>
                                         </div>
                                         <div className="w-full h-16 relative">
