@@ -20,7 +20,7 @@ import { Container } from "@/components";
 const chartConfig = {
     reach: {
         label: "Total Reach",
-        color: "hsl(var(--chart-1))",
+        color: "hslvercel link(var(--chart-1))",
     },
     engagement: {
         label: "Engagement",
