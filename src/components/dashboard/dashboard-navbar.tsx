@@ -15,7 +15,7 @@ const DashboardNavbar = () => {
                     <Link href="/app" className="flex items-center gap-x-2">
                         <Icons.icon className="w-6" />
                         <span className="text-lg font-semibold">
-                            Luro
+                            worklance
                         </span>
                     </Link>
                 </div>

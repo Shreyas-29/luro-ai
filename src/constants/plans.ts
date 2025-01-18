@@ -14,7 +14,7 @@ export const PLANS: PLAN[] = [
     {
         id: "free",
         title: "Free",
-        desc: "Get started with essential tools for social media content creation",
+        desc: "Get started with the essentials",
         monthlyPrice: 0,
         yearlyPrice: 0,
         buttonText: "Get Started",
@@ -26,7 +26,7 @@ export const PLANS: PLAN[] = [
             "Standard analytics",
             "Basic image generation"
         ],
-        link: "https://stripe.com/free-plan-link"
+        link: "https://stripe.com"
     },
     {
         id: "pro",

@@ -6,12 +6,12 @@ export const PERKS = [
     {
         icon: ZapIcon,
         title: "Fast and Efficient",
-        description: "Experience quick and seamless content creation with our optimized AI tools."
+        description: "Keep tasks neatly organized"
     },
     {
         icon: ChartSplineIcon,
-        title: "Insightful Analytics",
-        description: "Gain valuable insights and analytics to enhance your social media strategy."
+        title: "Your payments",
+        description: "See every payment and booking status"
     },
     {
         icon: LifeBuoyIcon,

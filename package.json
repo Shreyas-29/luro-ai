@@ -1,5 +1,5 @@
 {
-  "name": "luro-ai",
+  "name": "worklance-ai",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -14,7 +14,8 @@
     "@clerk/types": "^4.14.0",
     "@headlessui/react": "^2.1.2",
     "@hookform/resolvers": "^3.9.0",
-    "@prisma/client": "5.21.1",
+    "@prisma/client": "^6.2.1",
+    "@prisma/extension-pulse": "^1.2.0",
     "@radix-ui/react-accordion": "^1.2.0",
     "@radix-ui/react-avatar": "^1.1.0",
     "@radix-ui/react-dialog": "^1.1.1",
@@ -28,6 +29,7 @@
     "@radix-ui/react-tooltip": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^16.4.7",
     "embla-carousel-react": "^8.2.0",
     "framer-motion": "^11.3.28",
     "hamburger-react": "^2.5.1",
@@ -56,7 +58,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
-    "prisma": "5.21.1",
+    "prisma": "^5.21.1",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }

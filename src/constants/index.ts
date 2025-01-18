@@ -1,3 +1,4 @@
+require('dotenv').config();
 import { APP_NAME, APP_DOMAIN, APP_HOSTNAMES } from "./site";
 import { inter, satoshi } from "./fonts";
 import { PERKS } from "./perks";
